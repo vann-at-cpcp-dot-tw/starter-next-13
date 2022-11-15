@@ -1,0 +1,23 @@
+.communityGallerySwiper
+  overflow: visible !important
+  &:global
+    &.index-0
+      .swiper-pagination-bullets
+        bottom: 2%
+    &.index-1
+      .swiper-pagination-bullets
+        bottom: -7% !important
+  :global(.swiper-button-next)
+    right: -10px
+    &:after
+      color: #F8E71C
+  :global(.swiper-button-prev)
+    left: -10px
+    &:after
+      color: #F8E71C
+  :global(.swiper-pagination-bullet)
+      opacity: 0.5
+      background: rgba(255, 255, 255, 1)
+  :global(.swiper-pagination-bullet-active)
+      opacity: 1
+      background: #F8E71C

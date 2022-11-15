@@ -9,7 +9,6 @@ const paths = [
   'LightboxClose',
   'Portal',
   'RatioArea',
-  'Template/Community'
 ]
 
 const components = paths.reduce((acc, path, index)=>{

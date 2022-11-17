@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@barba/core": "^2.9.7",
     "animejs": "^3.2.1",
     "html-react-parser": "^3.0.4",
     "imagesloaded": "^5.0.0",

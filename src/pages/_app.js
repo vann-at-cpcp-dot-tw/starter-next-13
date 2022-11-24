@@ -34,6 +34,9 @@ function App(props){
   const { Component, globalProps } = props
 
   return <>
+    <Head>
+      <title></title>
+    </Head>
     <Component {...globalProps} />
   </>
 }
